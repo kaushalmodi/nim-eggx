@@ -13,3 +13,4 @@ git clone https://github.com/kaushalmodi/nim-eggx
 cd nim-eggx
 nimble test
 #+end_example
+[[./doc/img/mandel.gif]]
