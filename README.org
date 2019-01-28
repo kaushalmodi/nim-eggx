@@ -6,3 +6,10 @@ http://www.ir.isas.jaxa.jp/~cyamauch/eggx_procall/
 - EGGX :: 0.80
 - OS :: RHEL 6.8
 - Nim :: 0.19.9 as of 2019-01-28 Mon
+* Demo
+*Needs an OS with X11*
+#+begin_example
+git clone https://github.com/kaushalmodi/nim-eggx
+cd nim-eggx
+nimble test
+#+end_example
