@@ -5,7 +5,7 @@ from os import `/`, parentDir
 # cDebug()
 
 const
-  eggxVersion = "0.80"
+  eggxVersion = "0.93r5"
   # https://gitter.im/nim-lang/Nim?at=5c4e7a1754f21a71a1b8ede5
   headerDir = currentSourcePath.parentDir() / "lib" / ("eggx-" & eggxVersion)
   headereggx_base0 = headerDir / "eggx_base.h"
