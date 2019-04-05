@@ -1,8 +1,9 @@
 import nimterop/cimport
 from os import `/`, parentDir
 
-# cDisableCaching()
-# cDebug()
+# static:
+#   cDisableCaching()
+#   cDebug()
 
 const
   eggxVersion = "0.80"
