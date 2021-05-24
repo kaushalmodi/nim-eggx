@@ -50,11 +50,10 @@ extern void eggx_drawarc( int, float, float, float, float, float, float, int ) ;
 extern void eggx_circle( int , float , float , float , float ) ;
 extern void eggx_drawrect( int, float, float, float, float ) ;
 extern void eggx_fillrect( int, float, float, float, float ) ;
-extern void eggx_fillpoly( int, float [],float [], int, int ) ;
+extern void eggx_fillpoly( int, float *,float *, int, int ) ;
 extern void eggx_copylayer( int , int , int ) ;
 extern void eggx_layer( int, int, int ) ;
-extern int eggx_putimg24( int , float , float ,
-		      int , int , unsigned char * ) ;
+extern int eggx_putimg24( int , float , float , int , int , unsigned char * ) ;
 extern int eggx_ggetxpress( int , int *, float *, float * ) ;
 extern int eggx_ggetch( int ) ;
 extern void eggx_saveimg( int, int, float, float, float, float, char *, int, const char *, ... ) ;
