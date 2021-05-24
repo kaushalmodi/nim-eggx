@@ -12,6 +12,7 @@
 # Unignore few files
 !LICENSE
 
+*.so
 #*.*#
 *#*.*#
 
